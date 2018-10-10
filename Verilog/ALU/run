@@ -1,0 +1,6 @@
+#!/bin/csh -f
+
+./clean
+vhdlan top_tb.vhd top.vhd alu.vhd mux.vhd reg1.vhd shift_reg.vhd -vhdl08 -q
+vcs top_tb -o simv.x -debug_access+all -q
+simv.x -gui &

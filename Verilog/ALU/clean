@@ -1,0 +1,2 @@
+#!/bin/csh -f
+\rm -rf vhmra.sdb vhdl.sdb csrc simv* ucli.key DVEfiles inter.vpd

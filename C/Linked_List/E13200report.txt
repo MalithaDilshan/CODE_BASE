@@ -1,0 +1,64 @@
+
+G.M.D Kumarasiri
+E/13/200
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+------- - CO222: Programming Methodology: Project 2 – Specification - ------------
+
+
+
+
+
+******** RECORED RESULTS*******
+
+// This the time value for the queue qnd stack in the array based implementation
+
+Testing Queue
+Elapsed time 21625.812000
+Queue testing completed...
+
+Testing Stack
+Elapsed time 2.637000
+Stack testing completed...
+
+
+
+// This the time value for the queue qnd stack in the linkedlist based implementation
+
+Testing Queue
+Elapsed time 29539.425000
+Queue testing completed...
+
+Testing Stack
+Elapsed time 22.145000
+Stack testing completed...
+
+
+*********DISCUSSION**********
+
+             When consider about the array based implementation is the easiest way to implement a structures. because the memory allocation of the 
+	    for the program is very small and it can be handled easily. But still there is a very much time gap between the queue and stack structures.
+		This is due to the methods of deleting the numbers in the pop/dequeue fuctions. Because when delete the values in the queue (enqueue) it 
+		should be arrive to the fisrt element is tne array and after that the other values shoud be inserted to the previous plase in the array using 
+		for loop. But in the stack this can be done by reducing the last element(value) in the array(reduse the size of the array). Therefore the 
+        queue strucure use much time to perform.
+             when consider the linkedlist based implementation, the queue structure consume much time to perform like above. Because queue is used a 
+        for loop(linked lised based) to get the first node (the dequeue method is use the for loop to find the last node/address in here). 
+             when compairing the both array based and the linkedlist implementation, the linkedlist structure use much time to execute. Because in 
+        this approch the memory useage to store data(values) and other variable. Therefore this linkedlist based implementation get more time to 
+        execute.(note that this time consuming part is depend on the computer to computer).	
+
+
+                                                              * * * * * * * * * * * * * * * *		
+
+
+
+
+
+
+
+
+
+
+
